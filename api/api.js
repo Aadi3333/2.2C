@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-mongoose.connect('mongodb+srv://aadi333:Aadimahala70154@cluster0.wstqz17.mongodb.net/', { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect('mongodb+srv://<username>:<password>@cluster0.wstqz17.mongodb.net/', { useNewUrlParser: true, useUnifiedTopology: true });
 const express = require('express');
 const bodyParser = require('body-parser');
 
